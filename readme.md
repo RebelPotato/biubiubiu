@@ -31,6 +31,6 @@
 2. 对数据进行处理，得到执行某种操作需要的信息
 3. 使用信息执行操作
 
-在bilibili.api中，每一个数据结构对应一个api。可以通过`get-$data`从B站获得数据，用`$do-$data`
+在bilibili.api中，每一个数据结构对应一个api。可以通过`get-$data`从B站获得数据，用`$do-$data`将数据提交给B站从而实现某种操作的自动化，比如看视频，投币等。
 
 bilibili.tasks词汇中有使用bilibili.api进行自动化操作的例子。
